@@ -1,0 +1,95 @@
+C:\Users\abern\.jdks\openjdk-19.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=62293:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\geral\projetos\Alcione_projedata\out\production\Alcione_projedata Main
+item 3.1 - Inserir todos os funcionários, na mesma ordem e informações da tabela
+Funcionário nome = Maria, data de nascimento=22/07/2018, salário = R$ 2.009,44, função = Operador
+Funcionário nome = João, data de nascimento=12/05/1990, salário = R$ 2.284,38, função = Operador
+Funcionário nome = Caio, data de nascimento=02/05/1961, salário = R$ 9.836,14, função = Coordenador
+Funcionário nome = Miguel, data de nascimento=14/10/1988, salário = R$ 19.119,88, função = Diretor
+Funcionário nome = Alice, data de nascimento=05/01/1995, salário = R$ 2.234,68, função = Recepcionista
+Funcionário nome = Heitor, data de nascimento=19/11/1999, salário = R$ 1.582,72, função = Operador
+Funcionário nome = Arthur, data de nascimento=13/03/1993, salário = R$ 4.071,84, função = Contador
+Funcionário nome = Laura, data de nascimento=08/07/1994, salário = R$ 3.017,45, função = Gerente
+Funcionário nome = Heloísa, data de nascimento=24/05/2002, salário = R$ 1.606,85, função = Eletricista
+Funcionário nome = Helena, data de nascimento=24/05/1996, salário = R$ 2.799,93, função = Gerente
+
+Item 3.2 - remover funcionário João
+remover: Funcionário nome = João, data de nascimento=12/05/1990, salário = R$ 2.284,38, função = Operador
+
+Item 3.3 - imprime lista de funcionários
+Funcionário nome = Maria, data de nascimento=22/07/2018, salário = R$ 2.009,44, função = Operador
+Funcionário nome = Caio, data de nascimento=02/05/1961, salário = R$ 9.836,14, função = Coordenador
+Funcionário nome = Miguel, data de nascimento=14/10/1988, salário = R$ 19.119,88, função = Diretor
+Funcionário nome = Alice, data de nascimento=05/01/1995, salário = R$ 2.234,68, função = Recepcionista
+Funcionário nome = Heitor, data de nascimento=19/11/1999, salário = R$ 1.582,72, função = Operador
+Funcionário nome = Arthur, data de nascimento=13/03/1993, salário = R$ 4.071,84, função = Contador
+Funcionário nome = Laura, data de nascimento=08/07/1994, salário = R$ 3.017,45, função = Gerente
+Funcionário nome = Heloísa, data de nascimento=24/05/2002, salário = R$ 1.606,85, função = Eletricista
+Funcionário nome = Helena, data de nascimento=24/05/1996, salário = R$ 2.799,93, função = Gerente
+
+Item 3.4 - Os funcionários receberam 10% de aumento de salário, atualizar a lista de funcionários com novo valor
+Funcionário nome = Maria, data de nascimento=22/07/2018, salário = R$ 2.210,38, função = Operador
+Funcionário nome = Caio, data de nascimento=02/05/1961, salário = R$ 10.819,75, função = Coordenador
+Funcionário nome = Miguel, data de nascimento=14/10/1988, salário = R$ 21.031,87, função = Diretor
+Funcionário nome = Alice, data de nascimento=05/01/1995, salário = R$ 2.458,15, função = Recepcionista
+Funcionário nome = Heitor, data de nascimento=19/11/1999, salário = R$ 1.740,99, função = Operador
+Funcionário nome = Arthur, data de nascimento=13/03/1993, salário = R$ 4.479,02, função = Contador
+Funcionário nome = Laura, data de nascimento=08/07/1994, salário = R$ 3.319,19, função = Gerente
+Funcionário nome = Heloísa, data de nascimento=24/05/2002, salário = R$ 1.767,53, função = Eletricista
+Funcionário nome = Helena, data de nascimento=24/05/1996, salário = R$ 3.079,92, função = Gerente
+
+Item 3.5 – Agrupar os funcionários por função em um MAP, sendo a chave a função e o valor a lista de funcionários
+Item 3.6 – Imprimir os funcionários agrupados por função
+Função: Operador
+Funcionário nome = Maria, data de nascimento=22/07/2018, salário = R$ 2.210,38, função = Operador
+Funcionário nome = Heitor, data de nascimento=19/11/1999, salário = R$ 1.740,99, função = Operador
+Função: Recepcionista
+Funcionário nome = Alice, data de nascimento=05/01/1995, salário = R$ 2.458,15, função = Recepcionista
+Função: Eletricista
+Funcionário nome = Heloísa, data de nascimento=24/05/2002, salário = R$ 1.767,53, função = Eletricista
+Função: Diretor
+Funcionário nome = Miguel, data de nascimento=14/10/1988, salário = R$ 21.031,87, função = Diretor
+Função: Gerente
+Funcionário nome = Laura, data de nascimento=08/07/1994, salário = R$ 3.319,19, função = Gerente
+Funcionário nome = Helena, data de nascimento=24/05/1996, salário = R$ 3.079,92, função = Gerente
+Função: Coordenador
+Funcionário nome = Caio, data de nascimento=02/05/1961, salário = R$ 10.819,75, função = Coordenador
+Função: Contador
+Funcionário nome = Arthur, data de nascimento=13/03/1993, salário = R$ 4.479,02, função = Contador
+
+3.7 – Não tem o item 3.7
+
+3.8 – Imprimir os funcionários que fazem aniversário no mês 10 e 12
+Lista de funcionários nascisdos no mês 12
+[]
+Lista de funcionários nascisdos no mês 10
+[Funcionário nome = Miguel, data de nascimento=14/10/1988, salário = R$ 21.031,87, função = Diretor]
+
+3.9 – Imprimir o funcionário com a maior idade, exibir os atributos: nome e idade
+Funcionário mais velho (02/05/1961)
+Nome: Caio, idade: 62 anos 6 meses 26 dias
+
+3.10 – Imprimir a lista de funcionários por ordem alfabética
+Funcionário nome = Alice, data de nascimento=05/01/1995, salário = R$ 2.458,15, função = Recepcionista
+Funcionário nome = Arthur, data de nascimento=13/03/1993, salário = R$ 4.479,02, função = Contador
+Funcionário nome = Caio, data de nascimento=02/05/1961, salário = R$ 10.819,75, função = Coordenador
+Funcionário nome = Heitor, data de nascimento=19/11/1999, salário = R$ 1.740,99, função = Operador
+Funcionário nome = Helena, data de nascimento=24/05/1996, salário = R$ 3.079,92, função = Gerente
+Funcionário nome = Heloísa, data de nascimento=24/05/2002, salário = R$ 1.767,53, função = Eletricista
+Funcionário nome = Laura, data de nascimento=08/07/1994, salário = R$ 3.319,19, função = Gerente
+Funcionário nome = Maria, data de nascimento=22/07/2018, salário = R$ 2.210,38, função = Operador
+Funcionário nome = Miguel, data de nascimento=14/10/1988, salário = R$ 21.031,87, função = Diretor
+
+3.11 – Imprimir o total dos salários dos funcionários
+A soma dos salários é de R$ 50.906,82
+
+3.12 – Imprimir quantos salários mínimos ganha cada funcionário, considerando que o salário mínimo é R$1212.00
+Nome: Alice, função: Recepcionista, quantidade de salários mínimos: 2,03
+Nome: Arthur, função: Contador, quantidade de salários mínimos: 3,70
+Nome: Caio, função: Coordenador, quantidade de salários mínimos: 8,93
+Nome: Heitor, função: Operador, quantidade de salários mínimos: 1,44
+Nome: Helena, função: Gerente, quantidade de salários mínimos: 2,54
+Nome: Heloísa, função: Eletricista, quantidade de salários mínimos: 1,46
+Nome: Laura, função: Gerente, quantidade de salários mínimos: 2,74
+Nome: Maria, função: Operador, quantidade de salários mínimos: 1,82
+Nome: Miguel, função: Diretor, quantidade de salários mínimos: 17,35
+
+Process finished with exit code 0
