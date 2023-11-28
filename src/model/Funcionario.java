@@ -40,14 +40,7 @@ public class Funcionario extends Pessoa implements Comparable<Object> {
     @Override
     public int compareTo(Object o) {
         Funcionario func = (Funcionario) o;
-
-//        if (campoOrdem == 1) {
-            return this.getNome().compareTo(func.getNome());
-//        } else if (campoOrdem == 2) {
-//            return this.getFuncao().compareTo(func.getFuncao());
-//        }
-
-//        return this.getNome().compareTo(func.getNome());
+        return this.getNome().compareTo(func.getNome());
     }
 
 }

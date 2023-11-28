@@ -44,6 +44,8 @@ public class Main {
         operacoes.copiaLista(); // copia lista para um MAP
         operacoes.imprimeListaFuncionariosPorFuncao();
 
+        System.out.println("\n3.7 – Não tem o item 3.7");
+
         System.out.println("\n3.8 – Imprimir os funcionários que fazem aniversário no mês 10 e 12");
         operacoes.imprimirFuncMesNasc(12);
         operacoes.imprimirFuncMesNasc(10);
