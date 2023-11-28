@@ -1,7 +1,5 @@
 package controller;
-
 import model.Funcionario;
-
 import java.util.Comparator;
 
 public class OrdenaPorFuncao implements Comparator<Funcionario> {

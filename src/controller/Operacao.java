@@ -5,7 +5,6 @@ Autor: Alcione Bernardinelli
 Data: 28/11/2023
 */
 import model.Funcionario;
-
 import java.math.BigDecimal;
 import java.text.NumberFormat;
 import java.time.LocalDate;

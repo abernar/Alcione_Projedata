@@ -5,7 +5,6 @@ Data: 28/11/2023
 */
 import controller.Operacao;
 import model.Funcionario;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
