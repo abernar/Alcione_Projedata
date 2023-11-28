@@ -20,13 +20,9 @@ public class Operacao {
     private Map<String, ArrayList<Funcionario>> mapaFuncionarios = new HashMap<>();
 
     public void inserir(Funcionario funcionario) {
-        Integer indice = 0;
 
-        if (!listaFuncionarios.isEmpty()) {
-            indice = listaFuncionarios.size();
-        }
         this.listaFuncionarios.add(funcionario);
-    }
+   }
 
     // imprime lista de funcionários
     public void imprimeListaFuncionarios(){

@@ -11,8 +11,6 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        //System.out.println("Hello world!");
-        //LocalDate dataNascimento = new LocalDate(2000, 10 , 18);
         Operacao operacoes = new Operacao();
 
         System.out.println("item 3.1 - Inserir todos os funcionários, na mesma ordem e informações da tabela");
