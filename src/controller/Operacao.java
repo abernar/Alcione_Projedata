@@ -67,8 +67,6 @@ public class Operacao {
 
     // copia lista de funcionários para um Map, sendo a chave a funcão e valor uma lista dos funcionários da respectiva função
     public void copiaLista() {
-        String funcaoAtual = "xxxxxx";
-        List<Funcionario> listaFuncionarios = new ArrayList<>();
         boolean primeiraVez = true;
 
         for(Funcionario func : this.listaFuncionarios){
@@ -84,7 +82,7 @@ public class Operacao {
     // busca e imprime os funcionários nascidos em um determinado mês do ano
     public void imprimirFuncMesNasc(int mes){
         Stream<Funcionario> funcionarioStream = listaFuncionarios.stream();
-        System.out.println("Lista de funcionários nascisdos no mês " + mes);
+        System.out.println("Lista de funcionários nascidos no mês " + mes);
         System.out.println(funcionarioStream.filter(func -> func.getDataNascimento().getMonthValue() == mes).collect(Collectors.toList()));
     }
 
