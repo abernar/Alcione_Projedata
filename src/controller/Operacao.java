@@ -59,8 +59,8 @@ public class Operacao {
 
             System.out.println("Função: " + listaFunc.getKey());
 
-            for(Funcionario arrayFunc : listaFunc.getValue()){
-                System.out.println(arrayFunc.toString());
+            for(Funcionario func : listaFunc.getValue()){
+                System.out.println(func.toString());
             }
         }
     }
