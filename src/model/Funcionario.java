@@ -42,4 +42,8 @@ public class Funcionario extends Pessoa implements Comparable<Object> {
         return this.getNome().compareTo(func.getNome());
     }
 
+    public void aumentarSalario(float percentualAumento){
+        this.setSalario(this.salario.multiply(new BigDecimal(1 + percentualAumento / 100)));
+    }
+
 }

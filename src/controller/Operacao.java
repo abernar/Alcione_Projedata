@@ -112,7 +112,7 @@ public class Operacao {
     //aumenta o salário dos funcionarios conforme o aumento percentual passado como parâmetro
     public void aumentoSalario(BigDecimal aumentoPorcentual) {
         for (Funcionario func : this.listaFuncionarios){
-            func.setSalario(func.getSalario().multiply(aumentoPorcentual.divide(new BigDecimal(100)).add(new BigDecimal(1))));
+            func.aumentarSalario(10);
         }
     }
 
